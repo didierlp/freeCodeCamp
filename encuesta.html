@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Encuesta</title>
+    <link rel="stylesheet" href="./styles.css">
+</head>
+
+<body>
+    <div class="contenedor">
+        <div class="titulo">
+            <h1 id="title"> Formulario de encuesta freeCodeCamp</h1>
+            <p id="description">Gracias por tomarse el tiempo para ayudarnos a mejorar la plataforma</p>
+        </div>
+
+        <form id="survey-form" action="">
+            <div><label for="name" id="name-label">Nombre</label>
+                <input type="text" class="input" id="name" required placeholder="Ingrese su nombre">
+            </div>
+            <div><label class="input" for="email" id="email-label">Email</label>
+                <input id="email" type="email" class="input" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]$" required
+                    placeholder="Ingrese su email">
+            </div>
+            <div><label class="input" for="number" id="number-label">Número</label>
+                <input type="number" id="number" class="input" min=10 max=99 placeholder="Edad">
+            </div>
+            <div><label for="">¿Cuál es tu característica favorita de freeCodeCamp?</label>
+                <select class="input" id="dropdown">
+                    <option value="">Desafíos</option>
+                    <option value="">Proyectos</option>
+                    <option value="">Comunidad</option>
+                    <option value="">Código abierto</option>
+                </select>
+            </div>
+            <div><label for="">¿Recomendarías freeCodeCamp a un amigo?</label>
+                <label for=""><input type="radio" input class="check" name="name" value="sí">Sí</label>
+                <label for=""><input type="radio" input class="check" name="name" value="No">No</label>
+                <label for=""><input type="radio" input class="check" name="name" value="Tal-vez">Tal vez</label>
+
+
+            </div>
+            <div> <label for="">¿Qué le gustaría que mejorara? (Marque todo lo que corresponda)</label>
+                <label for=""><input class="check" type="checkbox" value="Proyectos Front-end"> Proyectos
+                    Front-end</label>
+                <label for=""><input class="check" type="checkbox" value="Proyectos Back-end"> Proyectos
+                    Back-end</label>
+                <label for=""><input class="check" type="checkbox" value="Visualización de datos"> Visualización de
+                    datos</label>
+                <label for=""><input class="check" type="checkbox" value="Desafíos"> Desafíos</label>
+                <label for=""><input class="check" type="checkbox" value="Comunidad de código abierto"> Comunidad de
+                    código
+                    abierto</label>
+                <label for=""><input class="check" type="checkbox" value="Salas de ayuda"> Salas de ayuda</label>
+                <label for=""><input class="check" type="checkbox" value="Videos"> Videos</label>
+                <label for=""><input class="check" type="checkbox" value="Encuentros en la ciudad"> Encuentros en la
+                    ciudad</label>
+                <label for=""><input class="check" type="checkbox" value="Wiki"> Wiki</label>
+                <label for=""><input class="check" type="checkbox" value="Foro"> Foro</label>
+                <label for=""><input class="check" type="checkbox" value="Cursos adicionales"> Cursos
+                    adicionales</label>
+
+            </div>
+            <div><label for="">¿Algún comentario o sugerencia?</label>
+                <textarea name="" id="" rows="10" placeholder="Escriba su comentario aquí..."></textarea>
+            </div>
+            <div class="boton"><button id="submit">Enviar</button></div>
+    </div>
+
+    </form>
+
+
+</body>
+
+</html>

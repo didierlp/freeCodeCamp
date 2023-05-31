@@ -1,0 +1,80 @@
+body{
+    background-image: url(./pexels-mariam-antadze-6598664.jpg);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    background-color: aquamarine;
+    font-size: 20px;
+    color:rgb(59, 55, 42);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+   
+}
+.titulo{
+    text-align: center;
+}
+#survey-form{
+
+display: block;
+background-color: rgba(155, 158, 134, 0.817);
+border-radius: .250rem;
+}
+
+label{
+    display: flex;
+    margin-bottom: 3px;
+}
+input{
+    display: block;
+    border-radius: 10px;
+    background-color:  rgba(223, 225, 209, 0.817);
+
+}
+
+div{
+    margin-bottom: 15px;
+    padding: 5px;
+}
+
+.contenedor{
+    align-items: center;
+   
+  width: 70%;
+    display: block;
+ 
+}
+.check{
+    height:  1.5rem;
+    width: 1.5rem;
+    border-radius: 2px;
+    color:  rgba(223, 225, 209, 0.817);
+
+}
+
+.input{
+    width: 98%;
+    height: 2.5rem;
+    font-size: 15px;
+}
+
+textarea{
+    width: 98%;
+    height: 50%;
+    background-color:  rgba(223, 225, 209, 0.817);
+
+}
+
+button{
+border-radius: 5px;
+background-color:  rgba(188, 191, 171, 0.817);;
+height: 2rem;
+width: 10rem;
+font-size: 15px;
+}
+
+
+.boton{
+    display: flex;
+    justify-content:center ;
+    align-items: center;
+    
+}
