@@ -21,7 +21,9 @@
                 <input type="text" class="input" id="name" required placeholder="Ingrese su nombre">
             </div>
             <div><label class="input" for="email" id="email-label">Email</label>
-                <input id="email" type="email" class="input" pattern="[a-z0-9._%+-]+@[a-z0-9.-]+\.[a-z]$" required
+                <input id="email" type="email" class="input" pattern="^[a-zA-Z0-9._%+-]+@[a-zA-Z0-9.-]+.[a-zA-Z]{2,4}$
+
+                " required
                     placeholder="Ingrese su email">
             </div>
             <div><label class="input" for="number" id="number-label">Número</label>
